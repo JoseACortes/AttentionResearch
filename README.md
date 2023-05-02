@@ -24,7 +24,7 @@ Sample features:
 
 Here is a sample of the data:
 
-![Sample]('extra/trialFeatureVisual.jpg')  
+![Sample](extra/trialFeatureVisual.jpg)  
 
 -----------------
 ## Methods
@@ -40,17 +40,17 @@ The data is processed in the following way:
   
 Here is a sample of the processed data:  
   
-![Sample]('extra/example_X_trial.jpg')
+![Sample](extra/example_X_trial.jpg)
 
 -----------------
 ## Results and Conclusion  
 4 models were used to predict reaction times. Each model takes all pupilometry features. The Testing Data loss (Mean Average Error) is taken from each model.  
 
-![Results]('extra/test_losses.jpg')  
+![Results](extra/test_losses.jpg)  
 
 The results show that the fully connected neural network and the long short-term memory network perform the best. The convolutional neural network performs the worst. The random baseline performs as expected. 
   
-![Validation Losses]('extra/test_losses.jpg')  
+![Validation Losses](extra/validation_losses.jpg)  
 
 The results show progress in predicting reaction times from pupilometry data. The quick overfitting of the data shows that either the models or the training data are not sufficient to predict reaction times.  
 Moving forward, more data should be collected and more models should be tested.
@@ -104,7 +104,7 @@ Notebooks for inital processing of the data.
 ### Visualization
 
 Notebooks for visualizing the data.  
-Includes tools for visually analyzing the features for individual trials and statistics for the features across all trials.
+Includes tools for visually analyzing the features for individual trials and statistics for the features across all trials in the "Zeros" Phase.
 
 ![Visuals](extra/FeatureAveragesPerTrial.jpg)
 
