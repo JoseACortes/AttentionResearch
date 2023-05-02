@@ -22,7 +22,7 @@ Sample features:
 5. Left Eye Position X (left_gaze_x)
 6. Left Eye Position Y (left_gaze_y) 
 
-Here is a sample of the data:
+Here is a sample of the one feature of one trial of the data:
 
 ![Sample](extra/trialFeatureVisual.jpg)  
 
@@ -48,8 +48,8 @@ Here is a sample of the processed data:
 
 ![Results](extra/test_losses.jpg)  
 
-The results show that the fully connected neural network and the long short-term memory network perform the best. The convolutional neural network performs the worst. The random baseline performs as expected. 
-  
+The results show that all non-random models are able to beat the baseline by a non-negligble amount, but not to the degree where it would be effective in a practical trial.  
+
 ![Validation Losses](extra/validation_losses.jpg)  
 
 The results show progress in predicting reaction times from pupilometry data. The quick overfitting of the data shows that either the models or the training data are not sufficient to predict reaction times.  
@@ -104,7 +104,9 @@ Notebooks for inital processing of the data.
 ### Visualization
 
 Notebooks for visualizing the data.  
-Includes tools for visually analyzing the features for individual trials and statistics for the features across all trials in the "Zeros" Phase.
+Includes tools for visually analyzing the features for individual trials and statistics for the features across all trials.  
+
+Inspection of Feature averages in "Zeros" phase:
 
 ![Visuals](extra/FeatureAveragesPerTrial.jpg)
 
