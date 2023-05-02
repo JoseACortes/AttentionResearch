@@ -37,5 +37,5 @@ def deepProcess(dataframe, subjectframe, nancut = .4):
 # X_y_train = deepProcess(trainingData, trainingSubjectInfo)
 # X_y_train.to_pickle('../../fulldata/processed/X_y_train.pkl')
 
-X_y_test = deepProcess(testingData, testingSubjectInfo)
-X_y_test.to_pickle('../../fulldata/processed/X_y_test.pkl')
+# X_y_test = deepProcess(testingData, testingSubjectInfo)
+# X_y_test.to_pickle('../../fulldata/processed/X_y_test.pkl')
