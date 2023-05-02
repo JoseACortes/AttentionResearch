@@ -80,10 +80,9 @@ Project Structure:
 │       ├── TrainingAndTesting.ipynb
 │   ├── extra/ <- supporting files for github repo
 │   ├── readme.md
-├── fulldata/
+├── fulldata/ (outside of repository)
 │   ├── raw/
 │       ├── rawEyePupilometryData.csv
-│       ├── subjectInfo.csv
 │   ├── processed/
 │       ├── processedData.pkl
 │       ├── processedSubjectInfo.pkl
@@ -91,6 +90,8 @@ Project Structure:
 │       ├── TrainingSubjectInfo.pkl
 │       ├── TestingData.pkl
 │       ├── TestingSubjectInfo.pkl
+│       ├── X_y_test.pkl
+│       ├── X_y_train.pkl
 ```
 
 ### Code (This Repository)
