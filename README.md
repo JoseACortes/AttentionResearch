@@ -1,7 +1,12 @@
 # Predicting Reaction Times from Pupilometry Data
 -----------------
-## Introduction  
-This project uses pupilometry data to predict reaction times.  
+## Introduction    
+
+“Sustained Attention” is the umbrella term in cognitive psychology used to describe a subject's readiness to detect unpredictable signals over long periods of time. Under [Dr. Pedro Maia](https://sites.google.com/site/pedrodoriamaia/home), the “Sustained Attention Group” seeks to understand and quantify the abstract human function of “attention”.   
+
+Reaction Time (RT) is a key performance indicator of attention. Shorter reaction times are generally assumed to mean higher attention. 350 subjects were given the difficult task of “sustaining attention”, over 4477 trials. During these trials, Pupillometry data was recorded.  
+
+Taking advantage of this data that is difficult to procure, the sustained attention group has been attempting different approaches to predict reaction times from the recorded features. This project is an attempt to predict reaction times from pupilometry data.
 
 -----------------
 ## Objective
@@ -9,10 +14,18 @@ The objective of this project is to predict reaction times from pupilometry data
 
 -----------------
 ## Data
+The data was measured by the Controlled Attention and Memeory lab of UT Arlington, directed by [Dr. Mathew Robinson](http://www.matthewkrobison.com/).
 
-(information about where the data came from, how it was collected, etc.)
+A trial is made up of 4 consecutive phases:  
+1. Fixation: An empty screen is shown  
+2. Zeros: 00.000 is shown on the screen  
+3. Timer: At a random time, after a few seconds, the clock starts ticking  
+4. Feedback: As soon as the subject can, the spacebar is pressed, reaction   
+5. time is recorded
 
-The data is a set of trials. Each trial has 6 features and a reaction time, features are sampled every 8-10 milliseconds. The reaction time is the time between the onset of the stimulus and the button press.
+![Trial](extra/pvt_phases.png)
+
+The compiled data is a set of trials. Each trial has 6 features and a reaction time, features are sampled every 8-10 milliseconds. The reaction time is the time between the onset of the stimulus and the button press.
 
 Sample features:  
 1. Right Pupil Diameter (right pupil)
